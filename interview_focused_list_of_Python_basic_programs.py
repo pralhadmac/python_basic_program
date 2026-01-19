@@ -1,22 +1,53 @@
-# 🔹 1. Basic Input / Output
-
-message = "Print “Hello World”"
-print(f"{message}")
-
-# Take input from user and print it
-a= input("Please eneter the user name : ")
-print(a)
-
-# Swap two numbers (with & without temp variable)
-
-# Check even or odd
-
-# Check positive, negative, or zero
-
-# Find largest of two numbers
-
-# Find largest of three numbers
-
+# # 🔹 1. Basic Input / Output
+#
+# message = "Print “Hello World”"
+# print(f"{message}")
+#
+# # Take input from user and print it
+# a= input("Please eneter the user name : ")
+# print(a)
+#
+# # Swap two numbers (with & without temp variable)
+# print("Swap two number with temp : ")
+# num1 = int(input("Enter the first number : "))
+# num2 = int(input("Enter the second number : "))
+# print(f"First number = {num1} and Second number = {num2}")
+# temp = num1
+# num1 = num2
+# num2 = temp
+# print(f" With temp result : First number = {num1} and Second number = {num2}")
+# num1, num2 = num2 , num1
+# print(f" Without temp result : First number = {num1} and Second number = {num2}")
+# # Check even or odd
+#
+# # Check positive, negative, or zero
+#
+# num3 = int(input("Please enter the number : "))
+# if num3 > 0:
+#     print(f"{num3} is positive")
+# elif num3 < 0:
+#     print(f"{num3} is negative")
+# else:
+#     print(f"{num3} is Zero")
+#
+# # Find largest of two numbers
+# num4 = int(input("Please enter the First number : "))
+# num5 = int(input("Please enter the second number : "))
+# if num4 > num5:
+#     print(f"{num4} is largest from {num5}")
+# else:
+#     print(f"{num5} is largest from {num4}")
+#
+# # Find largest of three numbers
+# num6 = int(input("Please enter the First number : "))
+# num7 = int(input("Please enter the second number : "))
+# num8 = int(input("Please enter the three number : "))
+# if num6 > num7 and num6 > num8:
+#     print(f"Largest number is {num6}")
+# elif num7 > num6 and num7 > num8:
+#     print(f"Largest number is {num7}")
+# else:
+#     print(f"Largest number is {num8}")
 # 🔹 2. Number Programs
 
 # Check prime number
