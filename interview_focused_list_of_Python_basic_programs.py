@@ -51,9 +51,26 @@
 # 🔹 2. Number Programs
 
 # Check prime number
+num = int(input("Please enter the number : "))
+if num <= 1:
+    print("Not a prime number.")
+else:
+    for i in range(2,num):
+        if num % i == 0:
+            print("Not a prime number")
+            break
+    else:
+        print("Prime number.")
 
 # Print prime numbers in a range
+limit = int(input("Please enter the number : "))
 
+for num in range(2, limit + 1):
+    for i in range(2,num):
+        if num % i == 0:
+            break
+    else:
+        print(f"{num}")
 # Factorial of a number
 
 # Fibonacci series
