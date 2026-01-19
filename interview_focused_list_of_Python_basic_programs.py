@@ -1,9 +1,11 @@
 # 🔹 1. Basic Input / Output
 
-message = Print “Hello World”
-print(f{message})
+message = "Print “Hello World”"
+print(f"{message}")
 
 # Take input from user and print it
+a= input("Please eneter the user name : ")
+print(a)
 
 # Swap two numbers (with & without temp variable)
 
