@@ -1,8 +1,8 @@
 num = int(input("Please enter the number : "))
 
-a = 0
-b = 1
+fact = 1
 
-for i in range(num):
-    print(a, end=" ")
-    a, b = b, a + b
+for i in range(1,num + 1):
+    fact = fact * i
+
+print("Factorial : ",fact)

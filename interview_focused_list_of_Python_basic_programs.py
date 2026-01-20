@@ -72,10 +72,34 @@ for num in range(2, limit + 1):
     else:
         print(f"{num}")
 # Factorial of a number
+num = int(input("Please enter the number : "))
 
+fact = 1
+
+for i in range(1,num + 1):
+    fact = fact * i
+
+print("Factorial : ",fact)
 # Fibonacci series
+num = int(input("Please enter the number : "))
 
+a = 0
+b = 1
+
+for i in range(num):
+    print(a, end=" ")
+    c = a + b
+    a = b
+    b = c
 # Reverse a number
+num = int(input("Please enter the number : "))
+
+reverse = 0
+while num > 0:
+    reverse = reverse *10 + num % 10
+    num = num //10
+
+print("Reversed number = ", reverse)
 
 # Check palindrome number
 
